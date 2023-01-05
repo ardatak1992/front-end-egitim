@@ -1,15 +1,11 @@
-# Ödev 2
+# Ödev 1
 
-Bu ödevde sizden kullanıcıdan girilen bilgilerin ekranda gösterilmesi beklenmektedir.
+Bu ödevde sizden bir sayaç yapmanız beklenmektedir.
 
 # Ödev Detayları
 
-- Kullanıcıdan girişi beklenen bilgiler
-    - Ad
-    - Soyad
-    - Telefon
-    - Adres
-- Veriler bir tablo içerisinde gösterilmelidir.
-- Tasarım konusunda özgürsünüz.
-- Girilen Öğeler Object'in içerisinde tutulmalıdır.
-- Kullanıcı her bilgi girdiğinde Object değişmelidir ve ekranda görünmelidir.
+- Ekranda Arttır ve Eksilt şekilde 2 tane buton bulunmalıdır
+- Arttır Butonuna tıklanıldığında sayaca 1 eklemelidir.
+- Eksilt Butonuna tıklanıldığında sayaçtan 1 çıkartmalıdır.
+- Ekranda sayacın kaçta olduğunu görünmelidir.
+- CSS kullanılmalıdır.
