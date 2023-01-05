@@ -42,7 +42,7 @@
  - [Best Practices](https://github.com/hail2u/html-best-practices/blob/main/README.tr.md) 
  
  #### Bölüm Ödevi
- - [ ] HTML Ödev 1 e göz at
+ - [ ] [Ödev 1](./HTML/%C3%96dev1/)
  
  
  
@@ -112,11 +112,12 @@
   
   ### Ödevler
   
-   - [ ] CSS Ödev 1 e göz at
-   - [ ] CSS Ödev 2 e göz at
-   - [ ] CSS Ödev 3 e göz at
-   - [ ] CSS Ödev 4 e göz at
-   - [ ] CSS Ödev 5 e göz at
+   - [ ] [Ödev 1](./CSS/%C3%96dev1/)
+   - [ ] [Ödev 2](./CSS/%C3%96dev2/)
+   - [ ] [Ödev 3](./CSS/%C3%96dev3/)
+   - [ ] [Ödev 4](./CSS/%C3%96dev4/)
+   - [ ] [Ödev 5](./CSS/%C3%96dev5/)
+   - [ ] [Ödev 6](./CSS/%C3%96dev6/)
   
   
   ## Veri Yapıları ve Algoritma
@@ -145,14 +146,11 @@
    - [javascript.info](https://javascript.info/types)
    
    ### Ödevler
-   - [ ] JS Ödev 1 e göz at
-   - [ ] JS Ödev 2 e göz at
-   - [ ] JS Ödev 3 e göz at
-   - [ ] JS Ödev 4 e göz at
-   - [ ] JS Ödev 5 e göz at
-   - [ ] JS Ödev 6 e göz at
-   - [ ] JS Ödev 7 e göz at
-  
+   - [ ] [Ödev 1](./CSS/%C3%96dev1/)
+   - [ ] [Ödev 2](./CSS/%C3%96dev2/)
+   - [ ] [Ödev 3](./CSS/%C3%96dev3/)
+   - [ ] [Ödev 4](./CSS/%C3%96dev4/)
+   - [ ] [Ödev 5](./CSS/%C3%96dev5/)
   
   ## Vue.js Nedir? 
   > Vue (pronounced /vjuː/, like view) is a JavaScript framework for building user interfaces. It builds on top of standard HTML, CSS, and JavaScript and provides a declarative and component-based programming model that helps you efficiently develop user interfaces, be they simple or complex.
@@ -162,5 +160,6 @@
  - İzlenilen kaynakla beraber örneklerin yapılması gerekmektedir.
  
  ### Ödevler
-   - [ ] Vue Ödev 1 e göz at
-   - [ ] Vue Ödev 2 e göz at
+   - [ ] [Ödev 1](./VUE/%C3%96dev1/)
+   - [ ] [Ödev 2](./VUE/%C3%96dev2/)
+   - [ ] [Ödev 3](./VUE/%C3%96dev3/)

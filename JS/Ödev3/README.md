@@ -1,4 +1,4 @@
-# Ödev 2
+# Ödev 3
 
 Bu ödevde sizden bir öğrenci yönetim uygulaması yapmanız beklenmektedir.
 

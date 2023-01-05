@@ -1,6 +1,6 @@
-# Ödev 3
+# Ödev 4
 
-Bu ödevde sizden CSS Ödev 6 da yaptığınız hesap makinesinin işlevlerini çalıştırmanız gerekmektedir.
+Bu ödevde sizden [CSS Ödev 6](../../CSS/%C3%96dev6/) da yaptığınız hesap makinesinin işlevlerini çalıştırmanız gerekmektedir.
 
 ## Ödev Detayları
 
@@ -14,7 +14,6 @@ Bu ödevde sizden CSS Ödev 6 da yaptığınız hesap makinesinin işlevlerini �
 - "*" butonuna tıklandığında hesap makinesinin ekranıında yazan sayılar silinmeli ve çarpma işlemi aktif edilmelidir.
 - "=" butonuna tıklandığında hesap makinesinin ekranında yapılan işlemin sonucu görünmelidir.
 - Reset butonuna tıklandığında öncesinde yapılmış bütün ayarlamalar sıfırlanmalı ve başlangıç değerine dönmelidir(tema seçme hariç).
-
 
 
 ## Temalar
