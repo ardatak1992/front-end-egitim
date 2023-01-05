@@ -64,7 +64,7 @@
   ### Layout
 - [Layout Nedir?](https://plusclouds.com.tr/blog/web-page-layout-nedir#:~:text=Layout%20'u%20kelime%20olarak%20a%C3%A7%C4%B1klamak,a%C3%A7%C4%B1klamak%20do%C4%9Fru%20bir%20tan%C4%B1mlama%20olacakt%C4%B1r.)
 
-  ### CSS Birimleri Ne Anlama Gelir?
+  ### CSS Birimleri Ne Anlama Gelir?
   - [Kevin Povel](https://www.youtube.com/watch?v=N5wpD9Ov_To)
   - [Adem İlter](https://www.youtube.com/watch?v=9wlmK3r1NJk)
   
@@ -88,12 +88,12 @@
     - [Grid Garden](https://codepip.com/games/grid-garden/)
   
   
-  ### CSS Display Niteliği
+  ### CSS Display Niteliği
   - [Tayfun Erbilen](https://www.youtube.com/watch?v=C3OvzUex0ck&list=PLfAfrKyDRWrFYc77WNfwQpS9-DBBdir_I&index=90)
   - [Web Dev Simplified](https://www.youtube.com/watch?v=Qf-wVa9y9V4)
   
   
-  ### CSS Position Niteliği
+  ### CSS Position Niteliği
   - [Tayfun Erbilen](https://www.youtube.com/watch?v=C3OvzUex0ck&list=PLfAfrKyDRWrFYc77WNfwQpS9-DBBdir_I&index=91)
   - [Kevin Povel](https://www.youtube.com/watch?v=P6UgYq3J3Qs)
   - [Web Dev Simplified](https://www.youtube.com/watch?v=jx5jmI0UlXU)
@@ -144,6 +144,10 @@
    - [W3 Schools](https://www.w3schools.com/js/js_datatypes.asp)
    - [Sadık Turan](https://www.sadikturan.com/javascript-temelleri/js-veri-tipleri/1335)
    - [javascript.info](https://javascript.info/types)
+
+   ### Döngüler Nelerdir?
+   - [Tayfun Erbilen](https://www.youtube.com/watch?v=B_grs48l5gA)
+   - [codeSTACKr](https://www.youtube.com/watch?v=Kn06785pkJg)
    
    ### Ödevler
    - [ ] [Ödev 1](./CSS/%C3%96dev1/)
@@ -158,7 +162,8 @@
  ### Öğrenim Kaynakları
  - [Kablosuz Kedi](https://www.youtube.com/watch?v=SAIBu6YvErE&list=PL_f2F0Oyaj48Y0Uv4BTlqzK7INi92D2wp)
  - İzlenilen kaynakla beraber örneklerin yapılması gerekmektedir.
- 
+ - [Vuejs.org](https://vuejs.org)
+
  ### Ödevler
    - [ ] [Ödev 1](./VUE/%C3%96dev1/)
    - [ ] [Ödev 2](./VUE/%C3%96dev2/)
