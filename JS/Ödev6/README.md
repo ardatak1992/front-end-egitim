@@ -1,4 +1,4 @@
-# Ödev 5
+# Ödev 6
 
 Bu ödevde sizden bir ürün listeleme sitesi yapmanız beklenmektedir.
 
