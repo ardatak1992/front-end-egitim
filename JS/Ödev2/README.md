@@ -1,4 +1,4 @@
-# Ödev 1
+# Ödev 2
 
 Bu ödevde sizden bir sayaç yapmanız beklenmektedir.
 
