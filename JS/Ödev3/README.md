@@ -1,4 +1,4 @@
-# Ödev 2
+# Ödev 3
 
 Bu ödevde sizden kullanıcıdan girilen bilgilerin ekranda gösterilmesi beklenmektedir.
 
