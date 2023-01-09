@@ -1,4 +1,4 @@
-# Ödev 4
+# Ödev 5
 
 Bu ödevde sizden [CSS Ödev 6](../../CSS/%C3%96dev6/) da yaptığınız hesap makinesinin işlevlerini çalıştırmanız gerekmektedir.
 
