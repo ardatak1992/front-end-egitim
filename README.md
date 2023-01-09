@@ -150,11 +150,11 @@
    - [codeSTACKr](https://www.youtube.com/watch?v=Kn06785pkJg)
    
    ### Ödevler
-   - [ ] [Ödev 1](./CSS/%C3%96dev1/)
-   - [ ] [Ödev 2](./CSS/%C3%96dev2/)
-   - [ ] [Ödev 3](./CSS/%C3%96dev3/)
-   - [ ] [Ödev 4](./CSS/%C3%96dev4/)
-   - [ ] [Ödev 5](./CSS/%C3%96dev5/)
+   - [ ] [Ödev 1](./JS/%C3%96dev1/)
+   - [ ] [Ödev 2](./JS/%C3%96dev2/)
+   - [ ] [Ödev 3](./JS/%C3%96dev3/)
+   - [ ] [Ödev 4](./JS/%C3%96dev4/)
+   - [ ] [Ödev 5](./JS/%C3%96dev5/)
   
   ## Vue.js Nedir? 
   > Vue (pronounced /vjuː/, like view) is a JavaScript framework for building user interfaces. It builds on top of standard HTML, CSS, and JavaScript and provides a declarative and component-based programming model that helps you efficiently develop user interfaces, be they simple or complex.
