@@ -7,6 +7,8 @@ Bu ödevde sizden Fetch kullanarak api ile haberleşip ekranda göstermeniz bekl
 - Fetch ile alınan veriler localStorage'a kaydedilmelidir.
 - Listelediğiniz postun üstüne tıklandığında ayrı bir sayfada o postu açmanız gerekmektedir( sayfa url'i: post/{id} şeklinde olmalıdır).
 - Post özel sayfası:
+    - Postun yorumları API'dan getirilmelidir.
+    - Postun yorumları ekranda gösterilmelidir.
     - Edit ve Delete butonlarına sahip olmalıdır.
         - Edit butonuna tıklandığında;
             - Edit sayfasına postun id'si ile birlikte gönderilmelidir.
@@ -49,6 +51,8 @@ Bu ödevde sizden Fetch kullanarak api ile haberleşip ekranda göstermeniz bekl
 
             - API'dan dönen sonuç olumsuzsa;
                 - Hata ekranda gösterilmelidir.
+
+- Tasarımda tamamen özgürsünüz, istediğiniz hoşunuza giden "uçuk" tasarımların hepsini hayata geçirebilirsiniz.
 
 ## Postun gereklilikleri
 
