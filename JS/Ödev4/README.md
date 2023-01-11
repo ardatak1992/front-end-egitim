@@ -12,7 +12,7 @@ Bu ödevde sizden bir öğrenci yönetim uygulaması yapmanız beklenmektedir.
     - Öğrenci Numarası
     - Sınıfı
     - Sınıf Öğretmeni
-- Öğrenci bilgilerinin girilip kaydedileceği bir form beklenmektedir(HTML Form özelliğini kullanıp kullanmamanız isteğinize bağlıdır).
+- Öğrenci bilgilerinin girilip kaydedileceği bir form beklenmektedir(HTML Form özelliğini kullanıp kullanmamanız gerekmektedir).
 - Öğrencileri Listelemek için bir buton olmalıdır.
 - Öğrenciler listelenirken tüm detayları okunabilir olmalıdır(Array, Object şeklinde görünmemelidir).
 - Numarasını girdiğimiz öğrenciyi silebileceğimiz bir alan olmalıdır.
