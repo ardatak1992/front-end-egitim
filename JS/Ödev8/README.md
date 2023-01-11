@@ -5,7 +5,7 @@ Bu ödevde sizden Fetch kullanarak api ile haberleşip ekranda göstermeniz bekl
 - Kullanılacak Api Adresi [JSON PLACEHOLDER](https://jsonplaceholder.typicode.com/)
 - Fetch ile yukarıdaki api adresindeki postları çekip ekranda listelemeniz gerekmektedir.
 - Fetch ile alınan veriler localStorage'a kaydedilmelidir.
-- Listelediğiniz postun üstüne tıklandığında ayrı bir sayfada o postu açmanız gerekmektedir( sayfa url'i: post/{id} şeklinde olmalıdır).
+- Listelediğiniz postun üstüne tıklandığında ayrı bir sayfada o postu açmanız gerekmektedir( sayfa url'i: post/detail?=id{id} şeklinde olmalıdır).
 - Post özel sayfası:
     - Postun yorumları API'dan getirilmelidir.
     - Postun yorumları ekranda gösterilmelidir.
@@ -24,13 +24,14 @@ Bu ödevde sizden Fetch kullanarak api ile haberleşip ekranda göstermeniz bekl
                     - Hata ekranda gösterilmelidir.
 
 - Post Edit Sayfası şu şekilde olmalıdır.
+    - Sayfa url'i: post/edit?=id{id} olmalıdır
     - Analiz ettiğiniz post verileri post düzenleme alanında görünmelidir.
     - Update butonu olmalıdır.
     - Veriler HTML Form kullanılarak onaydan geçmelidir.
     - Update butonuna basıldığında;
         - Girilen bilgiler eksiksizse API'a gönderilmelidir.
             - API'dan dönen sonuç olumluysa;
-                - Dönen veri LocalStorage'a eklenecek.
+                - Gelen veri LocalStorage'a eklenecek.
                 - Kullanıcı anasayfaya yönlendirilecek.
 
             - Apı'dan dönen sonuç olumsuzsa;
@@ -39,6 +40,7 @@ Bu ödevde sizden Fetch kullanarak api ile haberleşip ekranda göstermeniz bekl
 
 
 - Bir postun gerekliliklerini analiz etmeniz ve bu belgenin sonundaki alana yazmanız gerekmektedir.
+- Sayfa url'i: post/create olmalıdır
 - Post eklemek için bir sayfa olması gerekmektedir.
 - Post ekleme sayfası şu şekilde olmalıdır.
     - Analiz ettiğiniz post verileri post düzenleme alanında görünmelidir.
