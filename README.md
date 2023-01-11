@@ -159,8 +159,8 @@
    - [Web Dev Simplified](https://www.youtube.com/watch?v=V_Kr9OSfDeU)
    - [Roberts Dev Talk](https://www.youtube.com/watch?v=li7FzDHYZpc)
 
-    ### Async/Await Nedir?
-   - [Tayfun Erbilen]([https://www.youtube.com/watch?v=4lyv0ssRnAc](https://www.youtube.com/watch?v=_o2OiA4HPtI))
+    ### Promise Nedir?
+   - [Tayfun Erbilen](https://www.youtube.com/watch?v=_o2OiA4HPtI)
    - [Web Dev Simplified](https://www.youtube.com/watch?v=DHvZLI7Db8E)
    
    ### Ödevler
