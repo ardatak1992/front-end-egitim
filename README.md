@@ -145,9 +145,23 @@
    - [Sadık Turan](https://www.sadikturan.com/javascript-temelleri/js-veri-tipleri/1335)
    - [javascript.info](https://javascript.info/types)
 
-   ### Döngüler Nelerdir?
-   - [Tayfun Erbilen](https://www.youtube.com/watch?v=B_grs48l5gA)
-   - [codeSTACKr](https://www.youtube.com/watch?v=Kn06785pkJg)
+   ### API Nedir?
+   - [Orhan Bilge](https://www.youtube.com/watch?v=9-O7fWP5gPg)
+   - [Web Dev Simplified](https://www.youtube.com/watch?v=tgbRY96q-KM)
+
+    ### Fetch Nedir?
+   - [Kodluyoruz](https://www.youtube.com/watch?v=_iJk--TuQoM)
+   - [Web Dev Simplified](https://www.youtube.com/watch?v=cuEtnrL9-H0)
+
+    ### Async/Await Nedir?
+   - [Tayfun Erbilen](https://www.youtube.com/watch?v=4lyv0ssRnAc)
+   - [Kablosuz Kedi](https://www.youtube.com/watch?v=ayvrylRT14M)
+   - [Web Dev Simplified](https://www.youtube.com/watch?v=V_Kr9OSfDeU)
+   - [Roberts Dev Talk](https://www.youtube.com/watch?v=li7FzDHYZpc)
+
+    ### Promise Nedir?
+   - [Tayfun Erbilen](https://www.youtube.com/watch?v=_o2OiA4HPtI)
+   - [Web Dev Simplified](https://www.youtube.com/watch?v=DHvZLI7Db8E)
    
    ### Ödevler
    - [ ] [Ödev 1](./JS/%C3%96dev1/)
@@ -155,6 +169,9 @@
    - [ ] [Ödev 3](./JS/%C3%96dev3/)
    - [ ] [Ödev 4](./JS/%C3%96dev4/)
    - [ ] [Ödev 5](./JS/%C3%96dev5/)
+   - [ ] [Ödev 6](./JS/%C3%96dev6/)
+   - [ ] [Ödev 7](./JS/%C3%96dev7/)
+   - [ ] [Ödev 8](./JS/%C3%96dev8/)
   
   ## Vue.js Nedir? 
   > Vue (pronounced /vjuː/, like view) is a JavaScript framework for building user interfaces. It builds on top of standard HTML, CSS, and JavaScript and provides a declarative and component-based programming model that helps you efficiently develop user interfaces, be they simple or complex.
