@@ -75,6 +75,7 @@
     - [Tayfun Erbilen Flex Dersi 2](https://www.youtube.com/watch?v=U7X2hswNkIY)
   - Ya da Sadık Turan'dan tek video'da detaylıca öğrenilebilir
     - [Sadık Turan Flex Dersi](https://www.youtube.com/watch?v=U7X2hswNkIY)
+  - [Scrimba](https://scrimba.com/learn/flexbox/your-first-flexbox-layout-flexbox-tutorial-canLGCw)
 
   #### Konuyla Alakalı Oyunlar
     - [Flexbox Froggy](https://flexboxfroggy.com/#tr)
@@ -83,10 +84,16 @@
   ### Grid Kullanarak Layout Oluşturma
   - [Web Dev Simplified](https://www.youtube.com/watch?v=9zBsdzdE4sM)
   - [Sadık Turan](https://www.youtube.com/watch?v=nYWFWhUKj2I)
+  - [Scrimba](https://scrimba.com/learn/cssgrid/intro-to-the-css-grid-course-cg9PpTb)
   
   #### Konuyla Alakalı Oyunlar
     - [Grid Garden](https://codepip.com/games/grid-garden/)
   
+  ### CSS Variables(CSS Değişkenleri)
+  - [Scrimba](https://scrimba.com/learn/cssvariables)
+   
+  ### UI design
+  - [Scrimba](https://scrimba.com/learn/design)
   
   ### CSS Display Niteliği
   - [Tayfun Erbilen](https://www.youtube.com/watch?v=C3OvzUex0ck&list=PLfAfrKyDRWrFYc77WNfwQpS9-DBBdir_I&index=90)
@@ -109,6 +116,9 @@
   ### CSS Media Tagı
   - [Web Dev Simplified](https://www.youtube.com/watch?v=yU7jJ3NbPdA)
   - [Kevin Powel](https://www.youtube.com/watch?v=2KL-z9A56SQ)
+  
+  ### Örnek Ödev
+  - [Scrimba](https://scrimba.com/learn/spacetravel)
   
   ### Ödevler
   
@@ -134,6 +144,7 @@
    - [30 Günde Javascript Repository](https://github.com/Asabeneh/30-Days-Of-JavaScript)
    - [30 Günde Javascript Video(Tayfun Erbilen)](https://www.youtube.com/watch?v=8A7RWDgkXgg&list=PLfAfrKyDRWrGIER-yXLliD_47T_5FY8Qd&index=1)
    - [Udemy(Jquery de dahildir)](https://www.udemy.com/course/sifirdan-javascript-ve-jquery-egitimi/learn/lecture/10326606?start=0#overview)
+   - [Scrimba](https://scrimba.com/learn/learnjavascript)
    
    ### Değişkenler Nelerdir?
    - [JS Değişkenleri Neledir?(Türkçe)](https://www.yazilimbilisim.net/algoritma/degisken-nedir)
@@ -163,6 +174,12 @@
    - [Tayfun Erbilen](https://www.youtube.com/watch?v=_o2OiA4HPtI)
    - [Web Dev Simplified](https://www.youtube.com/watch?v=DHvZLI7Db8E)
    
+   ### Mülakat Soruları
+   - [Scrimba](https://scrimba.com/learn/interviewchallenges)
+   
+   ### Örnek Ödev
+   - [Scrimba](https://scrimba.com/learn/javascriptcolortool)
+   
    ### Ödevler
    - [ ] [Ödev 1](./JS/%C3%96dev1/)
    - [ ] [Ödev 2](./JS/%C3%96dev2/)
@@ -172,6 +189,9 @@
    - [ ] [Ödev 6](./JS/%C3%96dev6/)
    - [ ] [Ödev 7](./JS/%C3%96dev7/)
    - [ ] [Ödev 8](./JS/%C3%96dev8/)
+   
+   ### Öğrenilmesi hoş olur ama zorunlu değil
+   - [Scrimba](https://scrimba.com/learn/regularexpressions)
   
   ## Vue.js Nedir? 
   > Vue (pronounced /vjuː/, like view) is a JavaScript framework for building user interfaces. It builds on top of standard HTML, CSS, and JavaScript and provides a declarative and component-based programming model that helps you efficiently develop user interfaces, be they simple or complex.
