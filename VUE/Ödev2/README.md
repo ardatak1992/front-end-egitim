@@ -25,7 +25,7 @@ Bu ödevde sizden bir öğrenci yönetim uygulaması yapmanız beklenmektedir.
     - Sınıf Öğretmeni
 - Öğrencinin bilgileri oluşturma sayfasından girilmelidir ve store'a kaydedilmelidir.
 - Öğrenci listeleme sayfasında öğrenci bilgilerinin yanında aksiyon butonları olmalıdır ve onlar şunlardır;
-    - Düzenle
+    - Güncelle
     - Sil
 - Öğrenci güncelleme işlemleri öğrenci numarası ile ilerlemelidir.
 - Öğrenci silme işlemleri öğrenci numarası ile ilerlemelidir.
