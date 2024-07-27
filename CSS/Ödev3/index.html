@@ -1,12 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="index.css" />
     <title>Ödev3</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-container">
+        <img id="logo" src="assets/images/logo.svg" alt="" />
+        <div class="text-container">
+          <h1 class="title">
+            <span>We're</span> <span>comming</span> <span>soon</span>
+          </h1>
+          <p class="info">
+            Hello fellow shoppers! We're currently building our new fashion
+            store. Add your email below to stay up-to-date with announcements
+            and our launch details.
+          </p>
+        </div>
+        <form action="">
+          <div class="form-container">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email Address"
+            />
+            <img class="error-icon" src="assets/images/icon-error.svg" alt="" />
+            <button type="submit">
+              <img src="assets/images/icon-arrow.svg" alt="" />
+            </button>
+            <p class="error-msg">Please provide a valid email</p>
+          </div>
+        </form>
+      </div>
+      <div class="right-container"></div>
+    </div>
+  </body>
 </html>
