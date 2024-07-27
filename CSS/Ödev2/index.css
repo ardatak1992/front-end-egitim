@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --card-1-color: #e28525;
+  --card-2-color: #016972;
+  --card-3-color: #00403f;
+}
+
+body {
+  font-family: "Roboto", sans-seri;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.card-container {
+  min-width: 600px;
+  max-width: 800px;
+  border-radius: 5%;
+  display: flex;
+  width: 800px;
+  height: 50%;
+}
+
+.card {
+  width: calc(100% / 3);
+  color: white;
+}
+
+.card-1 {
+  background-color: var(--card-1-color);
+  border-radius: 2% 0 0 2%;
+}
+
+.card-2 {
+  background-color: var(--card-2-color);
+}
+
+.card-3 {
+  background-color: var(--card-3-color);
+  border-radius: 0 2% 2% 0;
+}
+
+.card img {
+  margin-left: 3rem;
+  margin-top: 3rem;
+}
+
+.card h1 {
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 2rem;
+}
+
+.card p {
+  font-size: 0.8rem;
+  opacity: 60%;
+}
+
+.text-box {
+  margin-top: 2rem;
+  margin-left: 3rem;
+  margin-right: 2.5rem;
+  text-align: left;
+  line-height: 1.5rem;
+}
+
+.card button {
+  margin-top: 4rem;
+  margin-left: 3rem;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  border: 2px solid white;
+  background-color: white;
+  transition: all 0.3s;
+}
+
+.card-1-btn {
+  color: var(--card-1-color);
+}
+
+.card-2-btn {
+  color: var(--card-2-color);
+}
+
+.card-3-btn {
+  color: var(--card-3-color);
+}
+
+.card button:hover {
+  cursor: pointer;
+  color: white;
+}
+
+.card-1-btn:hover {
+  background-color: var(--card-1-color);
+}
+.card-2-btn:hover {
+  background-color: var(--card-2-color);
+}
+.card-3-btn:hover {
+  background-color: var(--card-3-color);
+}
