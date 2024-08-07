@@ -1,12 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <script
+      src="https://kit.fontawesome.com/d6bb2911e9.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js" defer></script>
     <title>Ödev2</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Kişiler</h1>
+        <div class="search-container">
+          <input id="search-box" type="text" placeholder="Search Person" />
+        </div>
+        <div></div>
+      </header>
+      <div class="controls">
+        <div class="sort-buttons-container">
+          <div>
+            <label for="sorter">Sırala </label>
+          </div>
+          <div>
+            <select name="sortType" id="order-type">
+              <option value="name">İsme Göre</option>
+              <option value="surname">Soyada Göre</option>
+            </select>
+          </div>
+          <div>
+            <select name="sort-direction" id="sort-direction">
+              <option value="descending">A-Z</option>
+              <option value="ascending">Z-A</option>
+            </select>
+          </div>
+        </div>
+        <div class="right-buttons">
+          <div class="display-buttons-container">
+            <input
+              type="radio"
+              class="radio-input"
+              value="list"
+              name="view-options"
+              id="list"
+            />
+            <label class="radio-label" for="list">
+              <img src="icons/list_view_icon.svg" alt="" />
+            </label>
+            <input
+              type="radio"
+              class="radio-input"
+              value="grid"
+              name="view-options"
+              id="grid"
+            />
+            <label class="radio-label" for="grid">
+              <img src="icons/grid_view_icon.svg" alt="" />
+            </label>
+          </div>
+          <button id="add-person" class="btn btn-success">
+            <i class="fa-solid fa-plus"></i>
+            Kişi Ekle
+          </button>
+        </div>
+      </div>
+      <div class="form-container">
+        <form
+          action=""
+          id="add-form"
+          enctype="multipart/form-data"
+          class="hidden"
+        >
+          <input type="hidden" id="contactId" />
+          <div class="upload">
+            <img
+              id="form-avatar"
+              src="profile-placeholder.jpg"
+              width="100"
+              height="100"
+              alt=""
+            />
+            <div class="round">
+              <input
+                type="file"
+                id="avatar"
+                name="avatar"
+                accept=".jpg, .jpeg, .png"
+              />
+              <i class="fa fa-camera"></i>
+            </div>
+          </div>
+          <div class="left-form-group">
+            <input
+              type="text"
+              id="name"
+              value=""
+              name="name"
+              placeholder="İsim"
+              required
+            />
+            <input
+              type="text"
+              id="surname"
+              name="surname"
+              placeholder="Soyisim"
+              required
+            />
+            <input
+              type="text"
+              name="phone"
+              id="phone"
+              placeholder="Telefon"
+              maxlength="16"
+              required
+            />
+            <p id="phone-message"></p>
+          </div>
+          <div class="right-form-group">
+            <textarea
+              id="address"
+              name="address"
+              placeholder="Adres..."
+              required
+            ></textarea>
+          </div>
+          <div class="button-container">
+            <button class="btn btn-success btn-small" type="submit">
+              <img src="icons/check_icon.svg" alt="" />
+            </button>
+            <button
+              class="btn btn-error btn-small"
+              type="button"
+              id="cancel-btn"
+            >
+              <img src="icons/close_icon.svg" alt="" />
+            </button>
+          </div>
+        </form>
+      </div>
+      <table class="contact-list" id="contact-list">
+        <tr class="headers"></tr>
+      </table>
+      <div class="contact-grid" id="contact-grid"></div>
+    </div>
+  </body>
 </html>
