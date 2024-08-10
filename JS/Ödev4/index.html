@@ -1,12 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ödev3</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <script
+      src="https://kit.fontawesome.com/d6bb2911e9.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Ödev4</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <h1 class="title">ÖĞRENCİ YÖNETİM</h1>
+      
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="form-container">
+          <button id="toggle-form-button" class="btn btn-primary">
+            Öğrenci Ekle
+          </button>
+          <form id="add-form" action="">
+            <input type="hidden" name="student-id" id="student-id" required/>
+            <div class="form-group">
+              <label for="name">Ad:</label>
+              <input type="text" name="name" id="name" required/>
+            </div>
+            <div class="form-group">
+              <label for="surname">Soyad:</label>
+              <input type="text" name="surname" id="surname" required/>
+            </div>
+            <div class="form-group">
+              <label for="familyPhone">Aile Telefonu:</label>
+              <input
+                type="text"
+                name="familyPhone"
+                id="familyPhone"
+                maxlength="16"
+              />
+            </div>
+            <div class="form-group">
+              <label for="studentNumber">Öğrenci Numarası:</label>
+              <input type="text" name="studentNumber" id="studentNumber" required/>
+            </div>
+            <p class="hidden">Still student number already exists.</p>
+            <div class="form-group">
+              <label for="classNumber">Sınıf:</label>
+              <input type="text" name="classNumber" id="classNumber" required/>
+            </div>
+            <div class="form-group">
+              <label for="classTeacher">Sınıf Öğretmeni:</label>
+              <input type="text" name="classTeacher" id="classTeacher" required/>
+            </div>
+            <button class="btn btn-secondary">Ekle</button>
+          </form>
+        </div>
+        <div class="search-container">
+          <input type="text" id="search-bar" placeholder="Öğrenci Ara... (İsim, Numara)" />
+          <button>
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+      </div>
+      <section id="table-section">
+        <table id="student-table">
+          <thead>
+            <tr>
+              <th>Öğrenci No</th>
+              <th>İsim</th>
+              <th>Sınıf</th>
+              <th>Sınıf Öğretmeni</th>
+              <th>Aile Telefonu</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+        
+        
+      </section>
+    </main>
+  </body>
 </html>
