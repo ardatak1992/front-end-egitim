@@ -1,12 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ödev5</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js" defer></script>
+    <title>Ödev6</title>
+  </head>
+  <body class="theme-1">
+    <div class="calculator">
+      <div class="header theme-1">
+        <h2 class="title">calc</h2>
+        <div class="theme-container">
+          <p class="theme-text">THEME</p>
+          <div class="toggle-container">
+            <div class="toggle-nums">
+              <p>1</p>
+              <p>2</p>
+              <p>3</p>
+            </div>
+            <div id="toggle-button" class="toggle-button theme-1">
+              <div id="theme-switch" class="switch position-1 theme-1"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="screen theme-1">
+        <p id="operation-memory" class="theme-1"></p>
+        <p id="screen-number" class="theme-1">0</p>
+      </div>
+      <div class="keypad theme-1">
+        <div class="row">
+          <button class="btn num btn-light theme-1">7</button>
+          <button class="btn num btn-light theme-1">8</button>
+          <button class="btn num btn-light theme-1">9</button>
+          <button id="del-button" class="btn btn-blue theme-1">DEL</button>
+        </div>
+        <div class="row">
+          <button class="btn btn-light num theme-1">4</button>
+          <button class="btn btn-light num theme-1">5</button>
+          <button class="btn btn-light num theme-1">6</button>
+          <button class="btn btn-light operator theme-1">+</button>
+        </div>
+        <div class="row">
+          <button class="btn btn-light num theme-1">1</button>
+          <button class="btn btn-light num theme-1">2</button>
+          <button class="btn btn-light num theme-1">3</button>
+          <button class="btn btn-light operator theme-1">-</button>
+        </div>
+        <div class="row">
+          <button class="btn btn-light num theme-1">.</button>
+          <button class="btn btn-light num theme-1">0</button>
+          <button class="btn btn-light operator theme-1">/</button>
+          <button class="btn btn-light operator theme-1">x</button>
+        </div>
+        <div class="row">
+          <button id="reset-button" class="btn btn-big btn-blue theme-1">RESET</button>
+          <button class="btn btn-big operator btn-red theme-1">=</button>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
