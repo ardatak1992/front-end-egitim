@@ -1,12 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <script
+      src="https://kit.fontawesome.com/d6bb2911e9.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="index.js" defer></script>
     <title>Ödev6</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <h1>Ürünler</h1>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="button-container">
+          <a href="add.html" class="btn">
+            <i class="fa-regular fa-plus"></i>
+            Ürün Ekle
+          </a>
+          <div class="display-buttons-container">
+            <input
+              type="radio"
+              class="radio-input"
+              value="list"
+              name="view-options"
+              id="list"
+              checked
+            />
+            <label class="radio-label" for="list">
+              <i class="fa-solid fa-list"></i>
+            </label>
+            <input
+              type="radio"
+              class="radio-input"
+              value="grid"
+              name="view-options"
+              id="grid"
+            />
+            <label class="radio-label" for="grid">
+              <i class="fa-solid fa-border-all"></i>
+            </label>
+          </div>
+        </div>
+        <section id="product-list" class="list">
+          
+        </section>
+      </div>
+    </main>
+  </body>
 </html>

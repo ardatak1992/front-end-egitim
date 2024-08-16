@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <script
+      src="https://kit.fontawesome.com/d6bb2911e9.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="add.js" defer></script>
+    <title>Ürün ekle</title>
+  </head>
+  <body id="add-page">
+    <div class="form-container">
+      <div class="form-header">
+        <h1>Ürün Ekle</h1>
+      </div>
+      <form action="" id="add-form">
+        <a class="btn" href="index.html">
+          <i class="fa-solid fa-arrow-left"></i>
+          Geri Dön
+        </a>
+        <label for="product-image" class="custom-file-upload">
+          <div class="btn">Resim Seçin</div>
+          <input
+            accept="image/*"
+            type="file"
+            name="product-image"
+            id="product-image"
+            required
+          />
+          <div class="hidden" id="product-preview-container">
+            <button id="close-button" type="button">
+              <i class="fa-x"></i>
+            </button>
+            <img src="" class="product-preview" id="product-preview" alt="" />
+            <span id="filename"></span>
+          </div>
+        </label>
+        <div class="form-group">
+          <input name="product-name" id="product-name" type="text" required />
+          <label
+            for="product-name"
+            title="Ürün adını girin"
+            data-title="Ürün adı"
+          ></label>
+        </div>
+        <div class="form-group">
+          <textarea
+            name="product-description"
+            id="product-description"
+            cols="30"
+            rows="5"
+            required
+          ></textarea>
+          <label
+            for="product-description"
+            title="Ürün açıklamasını girin"
+            data-title="Ürün açıklaması"
+          ></label>
+        </div>
+
+        <div class="form-group">
+          <input
+            type="number"
+            name="likes-number"
+            id="likes-number"
+            min="0"
+            required
+          />
+          <label
+            for="likes-number"
+            title="Beğeni Sayısı Girin"
+            data-title="Beğeni Sayısı"
+          ></label>
+        </div>
+        <div class="form-group">
+          <input
+            type="number"
+            name="comments-number"
+            id="comments-number"
+            min="0"
+            required
+          />
+          <label
+            for="comments-number"
+            title="Yorum Sayısı Girin"
+            data-title="Yorum Sayısı"
+          ></label>
+        </div>
+
+        <button type="submit" id="add-product-btn" href="#" class="btn">
+          Ekle
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
